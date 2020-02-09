@@ -1,0 +1,19 @@
+{
+  "name": "groceries",
+  "version": "1.0.0",
+  "description": "groceries",
+  "main": "app.js",
+  "scripts": {
+    "start": "export NODE_ENV=dev NODE_CONFIG_DIR=./src/config/ && node --inspect ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.5.1",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
